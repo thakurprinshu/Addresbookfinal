@@ -19,37 +19,4 @@ public class AddressBook {
     }
 
 
-   /* public void editContact(String firstName, Scanner sc) {
-        for (Contact contact : contacts) {
-            if (contact.getFirstName().equalsIgnoreCase(firstName)) {
-                System.out.println("Enter new address: ");
-                contact.setAddress(sc.nextLine());
-
-                System.out.println("Contact updated: " + contact);
-                return;
-            }
-        }
-        System.out.println("⚠ Contact not found.");
-    }
-
-
-    public void deleteContact(String firstName) {
-        boolean removed = contacts.removeIf(contact -> contact.getFirstName().equalsIgnoreCase(firstName));
-        if (removed) {
-            System.out.println("✅ Contact deleted successfully.");
-        } else {
-            System.out.println("⚠ Contact not found.");
-        }
-    }
-
-
-    public void displayContacts() {
-        if (contacts.isEmpty()) {
-            System.out.println("No contacts found.");
-        } else {
-            for (Contact c : contacts) {
-                System.out.println(c);
-            }
- }
-    }*/
 }
