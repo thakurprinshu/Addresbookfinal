@@ -4,7 +4,7 @@ public class AddressBook {
     private List<Contact> contacts = new ArrayList<>();
 
 
-    public void addContact(Contact contact) {
+   /* public void addContact(Contact contact) {
         for (Contact c : contacts) {
             if (c.getFirstName().equalsIgnoreCase(contact.getFirstName()) &&
                     c.getLastName().equalsIgnoreCase(contact.getLastName())) {
@@ -16,10 +16,10 @@ public class AddressBook {
         }
         contacts.add(contact);
         System.out.println("✅ Contact added successfully!");
-    }
+    }*/
 
 
-   /* public void editContact(String firstName, Scanner sc) {
+    public void editContact(String firstName, Scanner sc) {
         for (Contact contact : contacts) {
             if (contact.getFirstName().equalsIgnoreCase(firstName)) {
                 System.out.println("Enter new address: ");
@@ -32,7 +32,7 @@ public class AddressBook {
         System.out.println("⚠ Contact not found.");
     }
 
-
+/*
     public void deleteContact(String firstName) {
         boolean removed = contacts.removeIf(contact -> contact.getFirstName().equalsIgnoreCase(firstName));
         if (removed) {
