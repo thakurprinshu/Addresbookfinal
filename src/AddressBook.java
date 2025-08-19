@@ -16,7 +16,7 @@ public class AddressBook {
         }
         contacts.add(contact);
         System.out.println("✅ Contact added successfully!");
-    }*/
+    }
 
 
     public void editContact(String firstName, Scanner sc) {
@@ -32,7 +32,7 @@ public class AddressBook {
         System.out.println("⚠ Contact not found.");
     }
 
-/*
+*/
     public void deleteContact(String firstName) {
         boolean removed = contacts.removeIf(contact -> contact.getFirstName().equalsIgnoreCase(firstName));
         if (removed) {
@@ -42,7 +42,7 @@ public class AddressBook {
         }
     }
 
-
+/*
     public void displayContacts() {
         if (contacts.isEmpty()) {
             System.out.println("No contacts found.");
